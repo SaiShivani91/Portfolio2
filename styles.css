@@ -1,0 +1,116 @@
+/* Reset default browser styles */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+header, footer, section {
+    padding: 14px 0; /* Adjust this value to decrease or increase the space between sections */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    background-color: #555555;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Contact Information styles */
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.contact-info p i {
+    margin-right: 5px;
+}
+
+/* Social Links styles */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-container {
+    text-align: center;
+    padding: 10px 0;
+}
